@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF_8">
         <title>Project - Google Homepage</title>
-        <style></style>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="container">
@@ -11,31 +11,68 @@
                 <a class="nav-left" href="#About">About</a>
                 <a class="nav-left" href="#Store">Store</a>
                 <div class="nav-right">
-                    <a class="nav-right" href="#Gmail">Gmail</a>
-                    <a class="nav-right" href="#Images">Images</a>
-                </div>
-                <div class="nav-right act-apps">
-                    <a class="nav-right act-apps" href="#Apps-dropdown" role="button"><img src="img/1x/apps-icon-sm.png"></a>
-                    <a class="nav-right act-apps" href="#Account" role="burron"><img src="img/1x/act-icon-sm.png"></a>
+                    <div class="nav-right-1">
+                        <div class="nav-right-2">
+                            <div class="gmail-images">
+                                <div class="gmail">
+                                    <a class="nav-right-selector" href="#Gmail">Gmail</a>
+                                </div>
+                                <div class="images">
+                                    <a class="nav-right-selector" href="#Images">Images</a>
+                                </div>
+                            </div>
+                            <div class="act-apps-1">
+                                <div class="right-apps">
+                                    <div class="right-apps-1">
+                                        <div calss="right-apps-2">
+                                            <a class="apps" href="#Apps-dropdown" role="button">
+                                                <img src="img/1x/apps-icon-sm.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-acct">
+                                    <div class="right-acct-1">
+                                        <a class="account" href="#Account" role="burron">
+                                            <img src="img/1x/act-icon-sm.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="google-logo">
-                <img id="google-logo" src="/img/google-logo.png" alt="Google Logo">
+                <div class="google-logo-2">
+                    <img id="google-logo" src="/img/google-logo.png" alt="Google Logo">
+                </div>
             </div>
             <div class="search">
                 <form action="/search" role="search">
                     <div>
-                        <img src="/img/1x/search-icon-sm.png" id="search-icon-sm">
-                    </div>
-                    <div class="search-box">
-                        <input class="search-box" type="text">
-                    </div>
-                    <div>
-                        <a class="search-box" href="#Voice-Search" role="button"><img src="img/1x/mic-icon-sm.png" id="mic-icon-sm"></a>
-                    </div>
-                    <div class="search-button">
-                        <button type="button" class="btn" id="search-submit">Google search</button>
-                        <button type="button" class="btn" id="lucky-submit">I'm Feeling Lucky</button>
+                        <div class="search-1">
+                            <div class="search-2">
+                                <div class="search-3">
+                                    <div class="search-icon">
+                                        <img src="/img/1x/search-icon-sm.png" id="search-icon-sm">
+                                    </div>
+                                    <div class="search-box">
+                                        <div class="search-box-2"></div>
+                                        <input id="search-box" type="text">
+                                    </div>
+                                    <div class="mic-icon">
+                                        <a id="mic-icon" href="#Voice-Search" role="button"><img src="img/1x/mic-icon-sm.png" id="mic-icon-sm"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-button">
+                                <center>
+                                    <input type="submit" class="google-search" id="search-submit" value="Google search">
+                                    <input type="submit" class="feeling-lucky" id="lucky-submit" value="I'm Feeling Lucky">
+                                </center>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
