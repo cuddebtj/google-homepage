@@ -1,6 +1,6 @@
-#Google-Homepage
+# Google-Homepage
 
-##Copy of the Google Homepage for The Odin Project.
+## Copy of the Google Homepage for The Odin Project.
 
 Skills demonstrated within this project:
 1. Ability to use HTML
