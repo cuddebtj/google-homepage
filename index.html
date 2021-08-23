@@ -24,10 +24,10 @@
                         </div>
                         <div class="container-fluid">
                             <div class="dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="dropdown-toggle caret-off" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" href="#" src="img/1x/apps-icon-sm.png">
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <ul class="dropdown-menu caret-off" aria-labelledby="dropdownMenuButton1">
                                     <li>
                                         <a class="dropdown-item" href="#">Account</a>
                                     </li>
@@ -97,11 +97,12 @@
                                             <span>Meet</span>
                                         </a>
                                     </li>
+                                    <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#More-from-google">More from Google</a></li>
                                 </ul>
                             </div>
                             <div class="dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="dropdown-toggle caret-off" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" href="#" src="img/1x/act-icon-sm.png">
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -113,12 +114,18 @@
                                         <a class="dropdown-item" href="#">email@email.com</da>
                                         <a class="dropdown-item" href="#Account">Manage your Google Account</a>
                                     </li>
+                                    <li><hr class="dropdown-divider"></li>
                                     <li>
                                         <a class="dropdown-item" href="Account">
                                             <img src="img/1x/act-icon-sm.png">
                                             <span>Add another account</span>
                                         </a>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Sign out of all accounts</a>
                                     </li>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
                                     <li>
                                         <a class="dropdown-item" href="#Privacy-Policy">Privacy Policy</a>
                                     </li>
@@ -184,26 +191,26 @@
                 <div>
                     <a role="button" href="#Privacy">Privacy</a>
                     <a role="button" href="Terms">Terms</a>
-                    <div>
-                        <button>Settings</button>
-                        <ul role="menu">
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-secondary dropdown-toggle caret-off" data-bs-toggle="dropdown">Settings</button>
+                        <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="#Search-settings" role="menuitem">Search settings</a>
+                                <a class="dropdown-item" href="#Search-settings" role="menuitem">Search settings</a>
                             </li>
                             <li>
-                                <a href="#Advanced-search" role="menuitem">Advanced search</a>
+                                <a class="dropdown-item" href="#Advanced-search" role="menuitem">Advanced search</a>
                             </li>
                             <li>
-                                <a href="#Your-data-in-search" role="menuitem">Your data in search</a>
+                                <a class="dropdown-item" href="#Your-data-in-search" role="menuitem">Your data in search</a>
                             </li>
                             <li>
-                                <a href="#Search-history" role="menuitem">Search history</a>
+                                <a class="dropdown-item" href="#Search-history" role="menuitem">Search history</a>
                             </li>
                             <li>
-                                <a href="#Search-help" role="menuitem">Search help</a>
+                                <a class="dropdown-item" href="#Search-help" role="menuitem">Search help</a>
                             </li>
                             <li>
-                                <a href="#Send-feedback" role="menuitem">Send feedback</a>
+                                <a class="dropdown-item" href="#Send-feedback" role="menuitem">Send feedback</a>
                             </li>
                         </ul>
                     </div>
