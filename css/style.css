@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+body,
+html {
+    height: 100%;
+    min-width: 400px;
+}
+
 body {
     font-size: 14px;
     font-family: arial,sans-serif;
@@ -37,4 +43,21 @@ body {
     background-color: #f2f2f2;
     text-decoration: none;
     white-space: nowrap;
+}
+
+.google-logo {
+    height: 92px;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.logo {
+    max-height: 290px;
+    height: calc(100% - 560px);
+    min-height: 92px;
+    flex-shrink: 0;
 }
