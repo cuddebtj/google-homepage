@@ -10,133 +10,125 @@
     <body>
         <div class="container-fluid">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg sticky-top">
-                    <a class="nav-link active" href="#About">About</a>
-                    <a class="nav-link active" href="#Store">Store</a>
-                    <div class="container-fluid">
-                        <div class="container-fluid">
-                            <div class="container-fluid">
-                                <a class="nav-link active" href="#Gmail">Gmail</a>
-                            </div>
-                            <div class="container-fluid">
-                                <a class="nav-link active" href="#Images">Images</a>
-                            </div>
+                <nav class="navbar navbar-expand-lg sticky-top row">
+                    <div class="container-fluid justify-content-start col">
+                        <a class="nav-link active font-black" href="#About">About</a>
+                        <a class="nav-link active font-black" href="#Store">Store</a>
+                    </div>
+                    <div class="container-fluid justify-content-end col">
+                        <a class="nav-link active font-black font-13" href="#Gmail">Gmail</a>
+                        <a class="nav-link active font-black font-13" href="#Images">Images</a>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle caret-off" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" href="#" src="img/1x/apps-icon-sm.png">
+                            </a>
+                            <ul class="dropdown-menu caret-off" aria-labelledby="dropdownMenuButton1">
+                                <li class="container-fluid col">
+                                    <a class="dropdown-item" href="#">
+                                        <img class="aa-dropdown-img" src="img/2x/act-icon-lg.png">
+                                        <span class="font-black">Account</span>
+                                    </a>
+                                </li>
+                                <li class="container-fluid col">
+                                    <a class="dropdown-item" href="#Gmail">
+                                        <img class="aa-dropdown-img" src="img/2x/gmail-icon-lg.png">
+                                        <span class="font-black">Gmail</span>
+                                    </a>
+                                </li>
+                                <li class="container-fluid col">
+                                    <a class="dropdown-item" href="#Drive">
+                                        <img class="aa-dropdown-img" src="img/2x/gdrive-icon-lg.png">
+                                        <span class="font-black">Drive</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#Search">
+                                        <img class="aa-dropdown-img" src="img/2x/search-icon-lg.png">
+                                        <span class="font-black">Search</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#YouTube">
+                                        <img class="aa-dropdown-img" src="img/2x/youtube-icon-lg.png">
+                                        <span class="font-black">YouTube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#PlayStore">
+                                        <img class="aa-dropdown-img" src="img/2x/store-icon-lg.png">
+                                        <span class="font-black">Play</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#Maps">
+                                        <img class="aa-dropdown-img" src="img/2x/maps-icon-lg.png">
+                                        <span class="font-black">Maps</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#Calendar">
+                                        <img class="aa-dropdown-img" src="img/2x/cal-icon-lg.png">
+                                        <span class="font-black">Calendar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#Translate">
+                                        <img class="aa-dropdown-img" src="img/2x/trans-icon-lg.png">
+                                        <span class="font-black">Translate</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#Photos">
+                                        <img class="aa-dropdown-img" src="img/2x/photos-icon-lg.png">
+                                        <span class="font-black">Photos</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#News">
+                                        <img class="aa-dropdown-img" src="img/2x/news-icon-lg.png">
+                                        <span class="font-black">News</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#Meet">
+                                        <img class="aa-dropdown-img" src="img/2x/hangouts-icon-lg.png">
+                                        <span class="font-black">Meet</span>
+                                    </a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item font-black" href="#More-from-google">More from Google</a></li>
+                            </ul>
                         </div>
-                        <div class="container-fluid">
-                            <div class="dropdown">
-                                <a class="dropdown-toggle caret-off" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" href="#" src="img/1x/apps-icon-sm.png">
-                                </a>
-                                <ul class="dropdown-menu caret-off" aria-labelledby="dropdownMenuButton1">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Account</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Gmail">
-                                            <img class="dropdown-item" src="img/2x/gmail-icon-lg.png">
-                                            <span class="dropdown-item">Gmail</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Drive">
-                                            <img class="dropdown-item" src="img/2x/gdrive-icon-lg.png">
-                                            <span class="dropdown-item">Drive</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Search">
-                                            <img class="dropdown-item" src="img/2x/search-icon-lg.png">
-                                            <span class="dropdown-item">Search</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#YouTube">
-                                            <img src="img/2x/youtube-icon-lg.png">
-                                            <span>YouTube</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#PlayStore">
-                                            <img src="img/2x/store-icon-lg.png">
-                                            <span>Play</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Maps">
-                                            <img src="img/2x/maps-icon-lg.png">
-                                            <span>Maps</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Calendar">
-                                            <img src="img/2x/cal-icon-lg.png">
-                                            <span>Calendar</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Translate">
-                                            <img src="img/2x/trans-icon-lg.png">
-                                            <span>Translate</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Photos">
-                                            <img src="img/2x/photos-icon-lg.png">
-                                            <span>Photos</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#News">
-                                            <img src="img/2x/news-icon-lg.png">
-                                            <span>News</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Meet">
-                                            <img src="img/2x/hangouts-icon-lg.png">
-                                            <span>Meet</span>
-                                        </a>
-                                    </li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#More-from-google">More from Google</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown">
-                                <a class="dropdown-toggle caret-off" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" href="#" src="img/1x/act-icon-sm.png">
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li>
-                                        <a class="dropdown-item" href="#"><img src="img/2x/act-icon-lg.png"></a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Account</a>
-                                        <a class="dropdown-item" href="#">email@email.com</da>
-                                        <a class="dropdown-item" href="#Account">Manage your Google Account</a>
-                                    </li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li>
-                                        <a class="dropdown-item" href="Account">
-                                            <img src="img/1x/act-icon-sm.png">
-                                            <span>Add another account</span>
-                                        </a>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Sign out of all accounts</a>
-                                    </li>
-                                    </li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li>
-                                        <a class="dropdown-item" href="#Privacy-Policy">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a>•</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="Terms-of-Service">Terms of Service</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle caret-off" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" href="#" src="img/1x/act-icon-sm.png">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item aa-dropdown-img" href="#"><img src="img/2x/act-icon-lg.png"></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item font-black" href="#">Account</a>
+                                    <a class="dropdown-item font-black" href="#">email@email.com</da>
+                                    <a class="dropdown-item font-black" href="#Account">Manage your Google Account</a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" href="Account">
+                                        <img class="aa-dropdown-img" src="img/1x/act-icon-sm.png">
+                                        <span  class="font-black">Add another account</span>
+                                    </a>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item font-black" href="#">Sign out of all accounts</a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item font-black" href="#Privacy-Policy">Privacy Policy</a>
+                                    <a>•</a>
+                                    <a class="dropdown-item font-black" href="Terms-of-Service">Terms of Service</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -176,43 +168,45 @@
                 </form>
             </div>
             <div>Empty</div>
-            <div>
-                <div>
-                    <a role="button" href="#Advertising">Advertising</a>
-                    <a role="button" href="#Business">Business</a>
-                    <a role="button" href="How Search works">How Search works</a>
-                </div>
-                <div>
-                    <a href="#Carbon-neutral">
-                        <img src="img/leaf.png">
-                        <span>Carbon neutral since 2007</span>
-                    </a>
-                </div>
-                <div>
-                    <a role="button" href="#Privacy">Privacy</a>
-                    <a role="button" href="Terms">Terms</a>
-                    <div class="btn-group dropup">
-                        <button type="button" class="btn btn-secondary dropdown-toggle caret-off" data-bs-toggle="dropdown">Settings</button>
-                        <ul class="dropdown-menu" role="menu">
-                            <li>
-                                <a class="dropdown-item" href="#Search-settings" role="menuitem">Search settings</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#Advanced-search" role="menuitem">Advanced search</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#Your-data-in-search" role="menuitem">Your data in search</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#Search-history" role="menuitem">Search history</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#Search-help" role="menuitem">Search help</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#Send-feedback" role="menuitem">Send feedback</a>
-                            </li>
-                        </ul>
+            <div class="bottom-bar container-fluid">
+                <div class="row text-center">
+                    <div class="col">
+                        <a class="bottom-bar" role="button" href="#Advertising">Advertising</a>
+                        <a class="bottom-bar" role="button" href="#Business">Business</a>
+                        <a class="bottom-bar" role="button" href="#How-Search-works">How Search works</a>
+                    </div>
+                    <div class="col">
+                        <a class="bottom-bar" href="#Carbon-neutral">
+                            <img class="leaf-size" src="img/leaf.png">
+                            <span class="bottom-bar">Carbon neutral since 2007</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="bottom-bar" role="button" href="#Privacy">Privacy</a>
+                        <a class="bottom-bar" role="button" href="Terms">Terms</a>
+                        <div class="btn-group dropup">
+                            <a type="button" class="dropdown-toggle caret-off bottom-bar" data-bs-toggle="dropdown">Settings</a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="dropdown-item bottom-bar" href="#Search-settings" role="menuitem">Search settings</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item bottom-bar" href="#Advanced-search" role="menuitem">Advanced search</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item bottom-bar" href="#Your-data-in-search" role="menuitem">Your data in search</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item bottom-bar" href="#Search-history" role="menuitem">Search history</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item bottom-bar" href="#Search-help" role="menuitem">Search help</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item bottom-bar" href="#Send-feedback" role="menuitem">Send feedback</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

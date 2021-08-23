@@ -1,9 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
 .caret-off::before {
     display: none !important;
 }
 
 .caret-off::after {
     display: none !important;
+}
+
+.aa-dropdown-img {
+    height: 64px;
+    width: auto;
+}
+
+.font-black {
+    color: rgba(0,0,0,0.87);
+}
+
+.font-13 {
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.leaf-size {
+    height: 14px;
+    width: auto;
+}
+
+.bottom-bar {
+    color: #70757a;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    white-space: nowrap;
 }
